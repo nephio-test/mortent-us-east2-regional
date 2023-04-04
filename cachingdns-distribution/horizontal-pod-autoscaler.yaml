@@ -2,7 +2,7 @@ apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata: # kpt-merge: example/coredns-caching
   name: coredns-caching
-  namespace: example
+  namespace: cachingdns-distribution
   annotations:
     internal.kpt.dev/upstream-identifier: 'autoscaling|HorizontalPodAutoscaler|example|coredns-caching'
 spec:
